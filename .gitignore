@@ -1,0 +1,5 @@
+architecture.md
+venv.nosync/
+__pycache__/
+*.pyc
+.DS_Store
