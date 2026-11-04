@@ -85,9 +85,3 @@ class Tokenizer():
                 self.current_str_chunk += char
 
         return self.token_list
-
-if __name__ == "__main__":
-    t = Tokenizer("sc 6, inc 1 (8)")
-    result = t.tokenize()
-    for token in result:
-        print(token)
